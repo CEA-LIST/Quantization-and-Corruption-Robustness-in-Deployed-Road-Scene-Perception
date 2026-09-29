@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+# model checkpoints are produced by the scripts
+*.pt
+*.pth
+# run outputs written to the repo root (the paper's copies live in results/)
+/*.json
+/*.log

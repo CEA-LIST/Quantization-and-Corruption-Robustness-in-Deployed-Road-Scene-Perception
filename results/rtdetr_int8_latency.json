@@ -1,0 +1,29 @@
+{
+  "_note": "Paired standalone end-to-end latency (CUDA-graphed) and weight size of the RT-DETR-R18 W8A8 QAT detector (seed 0), true INT8 vs a stack-matched FP16 baseline. Measured on an NVIDIA RTX 2000 Ada Generation Laptop GPU with the INT8 deployment used for the paper, which is not part of this release. Source of the paper's detector speed-up and size numbers.",
+  "gpu": "NVIDIA RTX 2000 Ada Generation Laptop GPU",
+  "end_to_end_latency_ms": {
+    "int8": {
+      "bs1": 3.42,
+      "bs4": 14.26,
+      "bs8": 30.65,
+      "bs16": 65.65
+    },
+    "fp16_stack_matched": {
+      "bs1": 5.33,
+      "bs4": 22.02,
+      "bs8": 47.08,
+      "bs16": 99.0
+    }
+  },
+  "speedup": {
+    "bs1": 1.56,
+    "bs4": 1.54,
+    "bs8": 1.54,
+    "bs16": 1.51
+  },
+  "weights_mb": {
+    "int8": 22.0,
+    "fp16": 40.5,
+    "fp32": 81.1
+  }
+}

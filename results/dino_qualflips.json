@@ -1,0 +1,464 @@
+{
+  "counts": {
+    "gauss_s4": {
+      "fp32_wrong_qat_right": 29,
+      "qat_wrong_fp32_right": 29,
+      "by_class_fwd": {
+        "Car": 10,
+        "Truck": 16,
+        "Bus": 1,
+        "Person": 2
+      }
+    },
+    "gauss_s6": {
+      "fp32_wrong_qat_right": 67,
+      "qat_wrong_fp32_right": 51,
+      "by_class_fwd": {
+        "Car": 49,
+        "Truck": 16,
+        "Bus": 2,
+        "Person": 0
+      }
+    },
+    "gauss_s8": {
+      "fp32_wrong_qat_right": 118,
+      "qat_wrong_fp32_right": 82,
+      "by_class_fwd": {
+        "Car": 96,
+        "Truck": 19,
+        "Bus": 0,
+        "Person": 3
+      }
+    },
+    "defocus_blur_sev4": {
+      "fp32_wrong_qat_right": 39,
+      "qat_wrong_fp32_right": 58,
+      "by_class_fwd": {
+        "Car": 17,
+        "Truck": 18,
+        "Bus": 1,
+        "Person": 3
+      }
+    },
+    "defocus_blur_sev5": {
+      "fp32_wrong_qat_right": 46,
+      "qat_wrong_fp32_right": 60,
+      "by_class_fwd": {
+        "Car": 18,
+        "Truck": 22,
+        "Bus": 3,
+        "Person": 3
+      }
+    }
+  },
+  "candidates": [
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 1057,
+      "gt": "Person",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "snow_storm-143"
+    },
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 1370,
+      "gt": "Person",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "snow_storm-014"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 316,
+      "gt": "Person",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-002"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 721,
+      "gt": "Person",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "sand_storm-228"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 214,
+      "gt": "Bus",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "mist-043"
+    },
+    {
+      "cell": "gauss_s6",
+      "idx": 1215,
+      "gt": "Bus",
+      "fp32_pred": "Truck",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "dusttornado-017"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 147,
+      "gt": "Truck",
+      "fp32_pred": "Bus",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "haze-095"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 270,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "mist-147"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 384,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-237"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 429,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-293"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 829,
+      "gt": "Truck",
+      "fp32_pred": "Person",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "sand_storm_g2_-034"
+    },
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 147,
+      "gt": "Truck",
+      "fp32_pred": "Bus",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "haze-095"
+    },
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 343,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-074"
+    },
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 427,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-293"
+    },
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 834,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "sand_storm_g2_-035"
+    },
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 1126,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "snow_storm-190"
+    },
+    {
+      "cell": "gauss_s4",
+      "idx": 147,
+      "gt": "Truck",
+      "fp32_pred": "Bus",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "haze-095"
+    },
+    {
+      "cell": "gauss_s4",
+      "idx": 378,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-237"
+    },
+    {
+      "cell": "gauss_s4",
+      "idx": 428,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-293"
+    },
+    {
+      "cell": "gauss_s4",
+      "idx": 594,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-789"
+    },
+    {
+      "cell": "gauss_s6",
+      "idx": 147,
+      "gt": "Truck",
+      "fp32_pred": "Person",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "haze-095"
+    },
+    {
+      "cell": "gauss_s6",
+      "idx": 343,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-074"
+    },
+    {
+      "cell": "gauss_s6",
+      "idx": 479,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-435"
+    },
+    {
+      "cell": "gauss_s6",
+      "idx": 781,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "sand_storm-928"
+    },
+    {
+      "cell": "gauss_s6",
+      "idx": 834,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "sand_storm_g2_-035"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 140,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "haze-081"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 147,
+      "gt": "Truck",
+      "fp32_pred": "Person",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "haze-095"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 237,
+      "gt": "Truck",
+      "fp32_pred": "Bus",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "mist-071"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 431,
+      "gt": "Truck",
+      "fp32_pred": "Person",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-293"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 479,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-435"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 522,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-523"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 641,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "sand_storm-096"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 834,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "sand_storm_g2_-035"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 1292,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-855"
+    },
+    {
+      "cell": "gauss_s8",
+      "idx": 1294,
+      "gt": "Truck",
+      "fp32_pred": "Car",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-855"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 577,
+      "gt": "Car",
+      "fp32_pred": "Bus",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "rain_storm-736"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 690,
+      "gt": "Car",
+      "fp32_pred": "Bus",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "sand_storm-197"
+    },
+    {
+      "cell": "defocus_blur_sev4",
+      "idx": 1000,
+      "gt": "Car",
+      "fp32_pred": "Bus",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "snow_storm-077"
+    },
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 286,
+      "gt": "Car",
+      "fp32_pred": "Truck",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "mist-161"
+    },
+    {
+      "cell": "defocus_blur_sev5",
+      "idx": 908,
+      "gt": "Car",
+      "fp32_pred": "Bus",
+      "fp32_wrong_seeds": 3,
+      "qat_right_seeds": 3,
+      "clean_ok_seeds": 3,
+      "image_id": "snow_storm-021"
+    }
+  ],
+  "seeds": 3,
+  "classes": [
+    "Car",
+    "Truck",
+    "Bus",
+    "Person"
+  ],
+  "n_test": 1462
+}
